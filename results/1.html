@@ -1,0 +1,353 @@
+<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>黑羽学院</title><link rel="stylesheet" href="/cdnjs/font-awesome/5.13.0/css/all.min.css"><link rel="stylesheet" href="/cdnjs/admin-lte/3.0.0/css/adminlte.min.css"><script src="/cdnjs/jquery/3.5.1/jquery.min.js"></script><script src="/cdnjs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script><script src="/cdnjs/admin-lte/3.0.0/js/adminlte.min.js"></script><script src="/cdnjs/tui-editor/1.4.10/tui-editor-Editor-full.min.js"></script><link rel="stylesheet" href="/cdnjs/tui-editor/1.4.10/tui-editor.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/cdnjs/tui-editor/1.4.10/tui-editor-contents.min.css" media="print" onload="this.media='all'"><script defer="defer" src="/cdnjs/dropzone/5.7.0/dropzone.min.js"></script><script defer="defer" src="/cdnjs/highlight.js/9.18.1/highlight.min.js"></script><link rel="stylesheet" href="/cdnjs/dropzone/5.7.0/dropzone.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/cdnjs/highlight.js/9.18.1/styles/vs.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/cdnjs/react-contextmenu/react-contextmenu.css" media="print" onload="this.media='all'"><style>/* html{ font-size: .98em;} */
+    
+    body{
+        font-size: .9em;
+        /* font-family: Microsoft Yahei,Helvetica,Arial,sans-serif,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    }
+
+    
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family:  Microsoft Yahei,'Source Sans Pro',sans-serif !important;
+    }
+
+    /* make scroll bar beautiful*/
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #f4f8f8; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #c9dfdf; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #9fcece; 
+    }
+
+
+    .main-header{
+        font-size: 1.08em;
+    }
+
+    .navbar {
+        padding: .2rem .5rem;
+    }
+
+    .box-header{
+        text-align: center;
+    }
+
+    .content , .navbar>.container{    
+        width: 90%;
+        max-width: 1300px;
+    }
+
+    .content-wrapper {
+        background-color: #fefefe;
+    }
+
+    
+    .dropdown-menu {
+        font-size: .9em;
+    }
+
+    .search-result-item{
+        position: relative; /*这个属性很重要*/
+        border-bottom: 1px solid #dacfcf;
+        color: #707070;
+        /* outline: #f8f4f4 solid 1px;
+        margin-bottom: 2em;
+        padding: .01em .02em; */
+        margin-bottom: .8em;
+    }
+    
+    /* 第2种搜索列表条目的样式 */
+    .search-result-item-2{
+        display: flex;
+        /* border-top: 1px solid #eaeaea; */
+        padding: 1em .3em;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    
+    .search-result-item-2:hover{
+        background-color: #e2f0ff;
+    }
+
+    .search-result-item-editing{
+        position: relative; /*这个属性很重要*/
+        outline: #88cbea  solid 1px;
+        /* margin-bottom: 2em;
+        padding: .01em .02em; */
+    }
+    
+    /* 飞机角标 */        
+    .search-result-item.plane::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f1d8";
+      position: absolute;
+      top: 3px;
+      right: 5px;
+      font-size: 1.2em;
+      color: #17a2b8;
+    }
+
+    /* 上锁角标 */        
+    .search-result-item.lock::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f023";
+      position: absolute;
+      top: 3px;
+      right: 5px;
+      font-size: 1.2em;
+      color: #17a2b8;
+    }
+
+    /* 禁止角标 */      
+    .search-result-item.banned::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f05e";
+      position: absolute;
+      top: 3px;
+      right: 5px;
+      font-size: 1.2em;
+      color: #d81b60;
+    }
+
+    .search-result-item a{
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    .search-result-item-field{
+        padding: .2em .5em;
+    }
+
+    .search-result-item-actionbar{
+        background-color: #f9f9f9;
+        display: flex;
+    }
+
+    .search-result-item-actionbar .btn-group {
+        margin-left: auto;
+    }
+
+    .search-result-item-actionbar .btn {
+        color:#686f68;
+        font-size: .85rem;
+    }
+
+
+    .search-result-item-field-name{
+        color: #2196f3;
+        margin-right: 1em;
+    }
+    
+    .btn-group > .btn-xs {
+        margin: .2em .5em;
+    }
+
+    /* .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+        z-index: 0;
+    } */
+
+    .btn-outlined.btn-green {
+        background: none;
+        border: 1px solid #488c6c;
+        color: #488c6c;
+    }
+
+    .btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
+        color: #ffffff;
+        background-color: #3a7157 !important;
+        border-color: #305d48;
+    }
+
+    .form-control:focus {
+        border-color: #3c8dbc;
+        box-shadow: none;
+    }
+
+    
+
+    .te-editor {
+        max-height: 45em;
+    }
+
+    .tui-editor-contents {        
+        font-size: 1.02em;     
+        font-family: Microsoft Yahei,Helvetica,Arial,sans-serif,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+       
+    }
+
+    .te-editor > .tui-editor-contents {              
+        min-height: 15em; 
+        max-height: 60em;
+    }
+
+    .tui-editor-contents code{        
+        font-size: 1em;   
+        font-family: consolas;
+    }
+    
+    .tui-editor-contents pre{        
+        font-size: 0.9em;   
+        font-family: consolas;
+    }
+    
+    .tui-editor-defaultUI {        
+        font-family: Microsoft Yahei,Helvetica,Arial,sans-serif,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    }
+
+    /* timeline */
+    .timeline::before {
+        border-radius: .25rem;
+        background: #3d9970;       
+        left: 33px;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        width: .5px;
+    }
+
+    .timeline>div>.timeline-item>.timeline-header {
+        cursor: pointer;
+    }
+
+    .timeline>.time-label>span {
+        font-weight: normal;
+    }
+
+    .content-header {
+        padding: .5rem .5rem;
+    }
+    /* 否则顶部导航条下面有条白线 */
+    .main-header {
+        border-bottom: 0px solid #dee2e6;
+    }   
+
+    .card-header {
+        padding: .45rem 1.25rem;
+    }
+    
+    .content-wrapper>.content {
+        padding: 0 .5rem .5rem .5rem;
+    }
+
+    
+    /* 标签分类css */
+    .tagcateory1 {
+        min-width: 3em;
+        margin-right:1em;
+        padding:.1em;
+        user-select:none;
+        -webkit-user-select: none;
+        /* outline:1px solid #e91e63; */
+        cursor:pointer;
+        color: #000000ad;
+    }
+
+
+
+    
+    .sidebarMenu {
+     
+     margin:auto;
+     float:right;
+     padding-top:20px;
+     display: flex;
+     flex-direction: column;
+    }
+
+    .home-slide .trigger {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+        z-index: 10;
+    }
+
+    .home-slide {
+        position: relative;
+        min-height: 20em;
+        overflow: hidden;
+    }
+
+
+    .home-slide .trigger span {
+        display: inline-block;
+        margin-left: 10px;
+        width: 12px;
+        height: 12px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-color: #eccfcf;
+        vertical-align: middle;
+        cursor: pointer;
+        transition: all .2s;
+    }
+
+    .home-slide .trigger span.on {
+        border-width: 0;
+        border-color: transparent;
+        background-color: transparent;
+        background-image: url(/assets/images/icon_slide_selected.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: scale(1.8);
+    }
+
+    .dropdown-item {
+        cursor: pointer;
+    }
+
+    .nav.flex-column a.nav-link{
+        padding: 1.5em 0.6em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    /* a.nav-link:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+        color: white;
+    } */
+
+    /* 文件浏览器 */
+    .fb-node {
+        width: 100%;
+        padding: .2em;        
+        cursor: pointer;
+    }
+    .fb-node:hover{
+        background-color: #e2f0ff !important;
+    }
+    .fb-node-icon-folder {
+        color: #007bff;   
+        margin-right:.8em;     
+    }
+    .fb-node-icon-file {
+        color: #e0838c;   
+        margin-right:1.05em;     
+    }
+    .fb-node-name {
+        color: rgb(65, 65, 65);  
+        user-select: none; /* standard syntax */
+        -webkit-user-select: none; /* webkit (safari, chrome) browsers */      
+    }
+
+    .nav-tabs .nav-link.active {
+        color: #d64b7e;
+    }
+    
+    .no-text-select {
+        user-select: none; /* standard syntax */
+        -webkit-user-select: none; /* webkit (safari, chrome) browsers */      
+    }</style><script defer="defer" src="220.js"></script><script defer="defer" src="543.js"></script><script defer="defer" src="240.js"></script><script defer="defer" src="644.js"></script><script defer="defer" src="555.js"></script><script defer="defer" src="671.js"></script><script defer="defer" src="index.js"></script></head><body class="layout-top-nav"><div class="wrapper" id="root"></div></body></html>

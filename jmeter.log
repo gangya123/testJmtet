@@ -1,0 +1,163 @@
+2024-09-20 01:32:56,637 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2024-09-20 01:32:56,648 INFO o.a.j.JMeter: Loading user properties from: D:\software\apache-jmeter-5.6.3\bin\user.properties
+2024-09-20 01:32:56,648 INFO o.a.j.JMeter: Loading system properties from: D:\software\apache-jmeter-5.6.3\bin\system.properties
+2024-09-20 01:32:56,652 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-09-20 01:32:56,652 INFO o.a.j.JMeter: Version 5.6.3
+2024-09-20 01:32:56,652 INFO o.a.j.JMeter: java.version=1.8.0_92
+2024-09-20 01:32:56,652 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-09-20 01:32:56,653 INFO o.a.j.JMeter: os.name=Windows 10
+2024-09-20 01:32:56,653 INFO o.a.j.JMeter: os.arch=amd64
+2024-09-20 01:32:56,653 INFO o.a.j.JMeter: os.version=10.0
+2024-09-20 01:32:56,653 INFO o.a.j.JMeter: file.encoding=GBK
+2024-09-20 01:32:56,653 INFO o.a.j.JMeter: java.awt.headless=null
+2024-09-20 01:32:56,653 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-09-20 01:32:56,653 INFO o.a.j.JMeter: Available Processors =12
+2024-09-20 01:32:56,655 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-09-20 01:32:56,655 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2024-09-20 01:32:56,655 INFO o.a.j.JMeter: JMeterHome=D:\software\apache-jmeter-5.6.3
+2024-09-20 01:32:56,655 INFO o.a.j.JMeter: user.dir  =D:\data\Jmeter\web_perf_test
+2024-09-20 01:32:56,656 INFO o.a.j.JMeter: PWD       =D:\data\Jmeter\web_perf_test
+2024-09-20 01:32:56,656 INFO o.a.j.JMeter: IP: 192.168.31.34 Name: SKZHAO FullName: SKZHAO
+2024-09-20 01:32:56,666 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-09-20 01:32:56,758 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-09-20 01:33:31,670 INFO o.a.j.s.FileServer: Default base='D:\data\Jmeter\web_perf_test'
+2024-09-20 01:33:31,671 INFO o.a.j.g.a.Load: Loading file: D:\data\Jmeter\web_perf_test\web_perf_test.jmx
+2024-09-20 01:33:31,671 INFO o.a.j.s.FileServer: Set new base='D:\data\Jmeter\web_perf_test'
+2024-09-20 01:33:31,741 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-09-20 01:33:31,748 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-09-20 01:33:31,749 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-09-20 01:33:31,751 INFO o.a.j.s.SaveService: Loading file: D:\data\Jmeter\web_perf_test\web_perf_test.jmx
+2024-09-20 01:33:31,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-20 01:33:31,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-20 01:33:31,768 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-20 01:33:31,768 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-09-20 01:33:31,768 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-09-20 01:33:31,768 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-09-20 01:33:31,945 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2024-09-20 01:33:31,945 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\software\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-09-20 01:33:32,209 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-09-20 01:33:32,209 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-09-20 01:33:32,209 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-09-20 01:33:32,209 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-09-20 01:33:32,336 INFO o.a.j.s.FileServer: Set new base='D:\data\Jmeter\web_perf_test'
+2024-09-20 01:33:36,634 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-09-20 01:33:36,635 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-20 01:33:36,635 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-20 01:33:36,635 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-09-20 01:33:36,635 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-09-20 01:33:36,788 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-09-20 01:33:36,859 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 用户2
+2024-09-20 01:33:36,859 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 用户2.
+2024-09-20 01:33:36,859 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:33:36,859 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2024-09-20 01:33:36,862 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-09-20 01:33:36,862 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 录制
+2024-09-20 01:33:36,862 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 录制.
+2024-09-20 01:33:36,862 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:33:36,862 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-09-20 01:33:36,864 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-09-20 01:33:36,864 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-09-20 01:33:36,864 INFO o.a.j.t.JMeterThread: Thread started: 录制 2-1
+2024-09-20 01:33:36,866 INFO o.a.j.t.JMeterThread: Thread started: 用户2 1-1
+2024-09-20 01:33:36,866 INFO o.a.j.t.JMeterThread: Thread is done: 录制 2-1
+2024-09-20 01:33:36,866 INFO o.a.j.t.JMeterThread: Thread finished: 录制 2-1
+2024-09-20 01:33:36,874 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = SKZHAO
+2024-09-20 01:33:36,878 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-09-20 01:33:37,108 INFO o.a.j.t.JMeterThread: Thread is done: 用户2 1-1
+2024-09-20 01:33:37,108 INFO o.a.j.t.JMeterThread: Thread finished: 用户2 1-1
+2024-09-20 01:33:37,109 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-09-20 01:33:37,109 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-09-20 01:47:00,834 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-09-20 01:47:00,834 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-20 01:47:00,839 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-09-20 01:47:00,841 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 用户1
+2024-09-20 01:47:00,841 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 用户1.
+2024-09-20 01:47:00,841 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:47:00,841 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2024-09-20 01:47:00,843 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-09-20 01:47:00,843 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 录制
+2024-09-20 01:47:00,843 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 录制.
+2024-09-20 01:47:00,843 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:47:00,843 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-09-20 01:47:00,844 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-09-20 01:47:00,844 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-09-20 01:47:00,844 INFO o.a.j.t.JMeterThread: Thread started: 录制 2-1
+2024-09-20 01:47:00,844 INFO o.a.j.t.JMeterThread: Thread is done: 录制 2-1
+2024-09-20 01:47:00,844 INFO o.a.j.t.JMeterThread: Thread finished: 录制 2-1
+2024-09-20 01:47:00,845 INFO o.a.j.t.JMeterThread: Thread started: 用户1 1-1
+2024-09-20 01:47:13,855 INFO o.a.j.g.a.Start: Stopping test
+2024-09-20 01:47:13,860 INFO o.a.j.t.JMeterThread: Stopping: 用户1 1-1
+2024-09-20 01:47:13,860 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2024-09-20 01:47:13,860 INFO o.a.j.t.JMeterThread: Thread finished: 用户1 1-1
+2024-09-20 01:47:13,861 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-09-20 01:47:13,861 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-09-20 01:47:44,628 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-09-20 01:47:44,629 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-20 01:47:44,631 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-09-20 01:47:44,632 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 用户1
+2024-09-20 01:47:44,634 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 用户1.
+2024-09-20 01:47:44,634 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:47:44,634 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2024-09-20 01:47:44,635 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-09-20 01:47:44,636 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 录制
+2024-09-20 01:47:44,636 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 录制.
+2024-09-20 01:47:44,636 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:47:44,636 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-09-20 01:47:44,636 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-09-20 01:47:44,636 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-09-20 01:47:44,636 INFO o.a.j.t.JMeterThread: Thread started: 录制 2-1
+2024-09-20 01:47:44,636 INFO o.a.j.t.JMeterThread: Thread is done: 录制 2-1
+2024-09-20 01:47:44,636 INFO o.a.j.t.JMeterThread: Thread finished: 录制 2-1
+2024-09-20 01:47:44,637 INFO o.a.j.t.JMeterThread: Thread started: 用户1 1-1
+2024-09-20 01:48:19,968 INFO o.a.j.g.a.Start: Stopping test
+2024-09-20 01:48:19,971 INFO o.a.j.t.JMeterThread: Stopping: 用户1 1-1
+2024-09-20 01:48:19,972 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2024-09-20 01:48:19,972 INFO o.a.j.t.JMeterThread: Thread finished: 用户1 1-1
+2024-09-20 01:48:19,972 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-09-20 01:48:19,972 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-09-20 01:48:34,134 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-09-20 01:48:34,134 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-20 01:48:34,136 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-09-20 01:48:34,209 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 用户1
+2024-09-20 01:48:34,209 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 用户1.
+2024-09-20 01:48:34,209 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:48:34,209 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2024-09-20 01:48:34,210 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-09-20 01:48:34,210 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 录制
+2024-09-20 01:48:34,210 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 录制.
+2024-09-20 01:48:34,210 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:48:34,211 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-09-20 01:48:34,211 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-09-20 01:48:34,211 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-09-20 01:48:34,211 INFO o.a.j.t.JMeterThread: Thread started: 录制 2-1
+2024-09-20 01:48:34,211 INFO o.a.j.t.JMeterThread: Thread is done: 录制 2-1
+2024-09-20 01:48:34,212 INFO o.a.j.t.JMeterThread: Thread finished: 录制 2-1
+2024-09-20 01:48:34,212 INFO o.a.j.t.JMeterThread: Thread started: 用户1 1-1
+2024-09-20 01:48:45,889 INFO o.a.j.g.a.Start: Stopping test
+2024-09-20 01:48:45,893 INFO o.a.j.t.JMeterThread: Stopping: 用户1 1-1
+2024-09-20 01:48:45,893 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2024-09-20 01:48:45,894 INFO o.a.j.t.JMeterThread: Thread finished: 用户1 1-1
+2024-09-20 01:48:45,894 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-09-20 01:48:45,894 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-09-20 01:49:38,929 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-09-20 01:49:38,930 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-09-20 01:49:38,932 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-09-20 01:49:38,996 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 用户1
+2024-09-20 01:49:38,996 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 用户1.
+2024-09-20 01:49:38,996 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:49:38,996 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2024-09-20 01:49:38,997 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-09-20 01:49:38,997 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : 录制
+2024-09-20 01:49:38,997 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 录制.
+2024-09-20 01:49:38,997 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-09-20 01:49:38,997 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2024-09-20 01:49:38,997 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2024-09-20 01:49:38,997 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-09-20 01:49:38,997 INFO o.a.j.t.JMeterThread: Thread started: 录制 2-1
+2024-09-20 01:49:38,998 INFO o.a.j.t.JMeterThread: Thread is done: 录制 2-1
+2024-09-20 01:49:38,998 INFO o.a.j.t.JMeterThread: Thread finished: 录制 2-1
+2024-09-20 01:49:38,999 INFO o.a.j.t.JMeterThread: Thread started: 用户1 1-1
+2024-09-20 01:49:45,177 INFO o.a.j.t.JMeterThread: Thread is done: 用户1 1-1
+2024-09-20 01:49:45,178 INFO o.a.j.t.JMeterThread: Thread finished: 用户1 1-1
+2024-09-20 01:49:45,178 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-09-20 01:49:45,178 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
